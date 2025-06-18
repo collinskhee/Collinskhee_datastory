@@ -1,0 +1,89 @@
+---
+---
+
+@import "{{ site.theme }}"; // Keep the default theme styles
+
+/* 🌟 Base Light Theme Styles */
+body {
+  background-color: #f9f9f9;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #222;
+  line-height: 1.6;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+h1, h2, h3, h4 {
+  color: #2a7ae2;
+  margin-top: 1.2em;
+  font-weight: 600;
+}
+
+a {
+  color: #e63946;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.wrapper {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 2em;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.05);
+}
+
+header {
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.9em;
+  color: #666;
+  margin-top: 3em;
+  padding-top: 1em;
+  border-top: 1px solid #e1e1e1;
+}
+
+/* 🌙 Dark Theme Overrides */
+body.dark {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+body.dark h1, body.dark h2, body.dark h3, body.dark h4 {
+  color: #bb86fc;
+}
+
+body.dark a {
+  color: #90caf9;
+}
+
+body.dark .wrapper {
+  background-color: #1e1e1e;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.6);
+}
+
+body.dark footer {
+  color: #aaa;
+  border-top: 1px solid #333;
+}
+.profile-section {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  margin-bottom: 2em;
+}
+
+.profile-pic {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #ccc;
+}
