@@ -3,7 +3,7 @@ layout: default
 title: "Welcome to My Portfolio"
 ---
 
-<img src="/assets/img/profile.jpg" alt="My Photo" class="float-right" />
+<img src="/assets/img/profile.png" alt="My Photo" class="float-right" />
 
 # 👋 Hi, I'm [Your Name]
 
