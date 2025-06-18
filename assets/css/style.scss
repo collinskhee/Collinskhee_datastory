@@ -1,19 +1,51 @@
 ---
 ---
 
-@import "{{ site.theme }}";
+@import "{{ site.theme }}"; // Keep the default theme styles
 
-/* ✅ Add your custom CSS below */
+// 🌟 Custom styles below
+
 body {
-  background-color: #f7f9fc;
-  font-family: "Segoe UI", sans-serif;
+  background-color: #f9f9f9;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #222;
+  line-height: 1.6;
 }
 
-h1 {
-  color: #006699;
-  font-weight: bold;
+h1, h2, h3, h4 {
+  color: #2a7ae2;
+  margin-top: 1.2em;
+  font-weight: 600;
 }
 
 a {
-  color: #008080;
+  color: #e63946;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.wrapper {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 2em;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.05);
+}
+
+header {
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.9em;
+  color: #666;
+  margin-top: 3em;
+  padding-top: 1em;
+  border-top: 1px solid #e1e1e1;
 }
