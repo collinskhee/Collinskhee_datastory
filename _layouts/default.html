@@ -41,13 +41,6 @@
         </ul>
         {% endif %}
       </header>
-  <div class="profile-section">
-    <img class="profile-pic" src="{{ '/assets/img/profile.jpg' | relative_url }}" alt="My Profile Picture" />
-    <div>
-      <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
-      <p>{{ site.description | default: site.github.project_tagline }}</p>
-    </div>
-  </div>
       <section>
         {{ content }}
       </section>
