@@ -73,3 +73,17 @@ body.dark footer {
   color: #aaa;
   border-top: 1px solid #333;
 }
+.profile-section {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  margin-bottom: 2em;
+}
+
+.profile-pic {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #ccc;
+}
